@@ -1,0 +1,25 @@
+.div-nav {
+    display: flex; /* Añade flex para que el contenido pueda alinearse */
+    justify-content: flex-end; /* Si quieres que el nav esté a la derecha, mantén esto */
+}
+
+.div-ul {
+    display: flex; /* Cambia a flex para centrar los elementos */
+    justify-content: center; /* Centra los elementos dentro de .div-ul */
+    align-items: center; /* Alinea verticalmente */
+    width: 100%; /* Asegúrate de que ocupe todo el ancho del contenedor */
+}
+
+.ul {
+    display: flex; /* Cambia a flex para que los li se alineen en línea */
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 0; /* Elimina el margin por defecto */
+}
+
+.div-li {
+    padding: 1em;
+    margin: 0 0.5em; /* Añade margen entre los ítems */
+    border: black solid 1px;
+    border-radius: 1em;
+}

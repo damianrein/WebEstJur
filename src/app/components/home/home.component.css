@@ -1,0 +1,23 @@
+.div{
+    display: flex; /* Cambia a flex para centrar los elementos */
+    justify-content: center; /* Centra los elementos dentro de .div-ul */
+    align-items: center; /* Alinea verticalmente */
+    width: 100%; /* Asegúrate de que ocupe todo el ancho del contenedor */
+}
+.div-picture{
+    width: 48%;
+    display: inline-block;
+}
+.presentation{
+    width: 48%;
+    display: inline-block;
+}
+.h3{
+    font-size: 2.25em;
+}
+.h2{
+    font-size: 1.75em;
+}
+.li{
+    font-size: 1.25em;
+}
