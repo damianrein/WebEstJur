@@ -1,13 +1,34 @@
 .div{
     width: 100%;
-    max-height: 300px;
+    max-height: fit-content;
     background-color: rgb(56, 53, 53);
 }
 .footer {
-    max-height: 300px;
+    max-height: fit-content;
     background-color: rgb(56, 53, 53);
     color: white; /* Para que el texto sea visible */
     padding: 20px; /* Añade padding */
     display: flex; /* Si deseas centrar el contenido */
     flex-direction: column; /* Alinea el contenido verticalmente */
+    
+}
+.div-form{
+    width: 35%;
+    text-align: center;
+    margin-left: 32.5%;
+}
+.div-input{
+    padding: 10px;
+}
+.div-input input{
+    width: 99%;
+    height: 4em;
+    border-radius: 2em;
+    text-align: center;
+}
+.div-input-btn input{
+    width: 35%;
+    height: 3em;
+    align-items: center;
+    border-radius: 1.5em;
 }
