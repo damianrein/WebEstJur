@@ -8,7 +8,10 @@
     display: inline-block;
 }
 .div-container{
-    width: 100%;
+    display: flex; /* Cambia a flex para centrar los elementos */
+    justify-content: center; /* Centra los elementos dentro de .div-ul */
+    align-items: center; /* Alinea verticalmente */
+    width: 100%; /* Asegúrate de que ocupe todo el ancho del contenedor */
 }
 .div-card{
     text-align: center;
@@ -16,6 +19,19 @@
     width: 49%;
     display: inline-block;
     height: 100%;
+    font-size: 18px;
+    margin-right: 3em;
+}
+#p{
+    padding: 1em;
+    margin-right: 2em;
+}
+#h4{
+
+}
+#h2{
+    font-size: 24px;
+    font-weight: bolder;
 }
 .div-picture{
     width: 49%;
