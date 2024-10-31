@@ -1,0 +1,26 @@
+.div-one{
+    width: 100%;
+}
+.container{
+    display: flex;
+    width: 90%;
+}
+.contein-card{
+    width: 50%;
+    display: inline-block;
+}
+.div-card{
+    width: 50%;
+    text-align: start;
+}
+.div-picture{
+    width: 50%;
+    display: inline-block;
+}
+.h5{
+    color: goldenrod;
+    font-size: 22px;
+}
+.p{
+    font-size: 18px;
+}
