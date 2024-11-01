@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Injectable({
   providedIn: 'root'
@@ -6,4 +7,5 @@ import { Injectable } from '@angular/core';
 export class ContactService {
 
   constructor() { }
+
 }

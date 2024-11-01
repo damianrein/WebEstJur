@@ -4,6 +4,7 @@
 .container{
     display: flex;
     width: 90%;
+text-align: center;
 }
 .contein-card{
     width: 50%;
@@ -16,6 +17,9 @@
 .div-picture{
     width: 50%;
     display: inline-block;
+}
+.img{
+    width: 70%;
 }
 .h5{
     color: goldenrod;
